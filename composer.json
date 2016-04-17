@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Lstr\\SayItToMySocket\\": "src"
+        }
+    },
+    "require": {
+        "cboden/ratchet": "0.3.4"
+    }
+}
