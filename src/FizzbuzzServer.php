@@ -170,6 +170,7 @@ class FizzbuzzServer implements MessageComponentInterface
             $client_id = $this->getClientIdForClient($client);
             $this->clients_without_messages[$client_id] = $client;
         }
+        usleep(500000);
         $this->notifyRemainingClients();
     }
 
